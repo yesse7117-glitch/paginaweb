@@ -1,0 +1,22 @@
+body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Animación suave para desplegar las curiosidades */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-12px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in {
+            animation: fadeInDown 0.45s ease-out forwards;
+        }
+        /* Patrón sutil inspirado en la bandera cruceña */
+        .bandera-borde {
+            background: linear-gradient(90deg, #007A33 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #007A33 66.66%);
+        }
